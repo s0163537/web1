@@ -3,9 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title id = "title">Заголовок</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
   </head>
   <body>
-    <ol>
+    <header>
+      <img id = "image_site" src="MC.jpg" />
+      <div id = "name_site">В ГОНКЕ ПОБЕЖДАЕТ ЧЕРЕПАХА</div>
+    </header>
+    <div id = "menu">
+      <ul>
+        <li><a href="#title">Ссылка на заголовок этой страницы</a></li>
+        <li><a href="../about/testfile.html">Относительная на страницу в каталоге уровнем выше </a></li>
+        <li><a href="../../form.html">Относительная на страницу в каталоге двумя уровнями выше </a></li>
+      </ul>
+    </div>
+    <br />
+    <nav>
+      <ol class = "link">
+      
       <li><a href="http://example.com/" id = "anchor">Гиперссылка на главную страницу сайта example.com</a></li>
       <li><a href="https://example.com/">Гиперссылка на главную страницу сайта example.com в протоколе https </a></li>
       <li><a href="ftp://user:password@example.com/randomfile.zip">ссылка на ftp без авторизации</a></li>
@@ -24,7 +39,7 @@
       <li><a href = "http://example.com/" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
       <li><a href = "http://example.com/"><noindex>Ссылка, запрещенная для индексации поисковиками</noindex></a></li>
       <li><p>
-        Здесь есть контекстная <a href="http://example.com/">ссылка</a>
+        Здесь есть контекстная <a href=https://www.pinterest.ru/pin/376261743866615679/">ссылка</a>
       </p></li>
       <li>Ссылка - изображение <br /><a href = "http://example.com/">
         <img src="image.jpg" alt="Цветок" style="width: 300px;" />
@@ -34,15 +49,47 @@
       <area shape="rect" coords="1,1,50,50" href="https://www.youtube.com/watch?v=Ea_wpXWr0jo&t=451s&ab_channel=ImranAlawiye">
       </map>
       <li>Левый верхний угол - квадрат, центр цветка - круг<br />
-        <img usemap="#primary" src="image.jpg" alt="Цветок" style="width: 300px;" />
+        <img usemap="#primary" src="image.jpg" alt="Цветок" style="width: 600px;" />
       </li>
       <li><a href="demo.html">Относительная в этом каталоге</a></li>
       <li><a href="../about/testfile.html">Относительная на страницу в каталоге about </a></li>
-      <li><a href="../about/testfile.html">Относительная на страницу в каталоге уровнем выше </a></li>
-      <li><a href="../../form.html">Относительная на страницу в каталоге двумя уровнями выше </a></li>
-      <li><a href="indexy.html">Сокращенная ссылка на главную </a></li>
+      <li><a href="indexpro.html">Сокращенная ссылка на главную </a></li>
       <li><a href="demo.html">Сокращенная ссылка на внутреннюю</a></li>
     </ol>
+    </nav>
+    <br />
+    <table>
+      <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td colspan="3">40+50+60</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>9</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+      </tr>
+    
+    </table>
+    <div id = "form">
     <form action="\"
       method="POST">
 
@@ -110,5 +157,12 @@
 
       <input type="submit" value="Отправить" />
     </form>
+    </div>
+
+    <footer>
+      <div id="footer_text">
+        Footer
+      </div>
+    </footer>
   </body>
 </html>
