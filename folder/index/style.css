@@ -9,13 +9,13 @@ margin:0;
   flex-direction: column;
   flex-wrap:  wrap;
   width: 100%;
-  margin: 10px 0;
+  margin: 0px 0;
   border: 3px solid black;
-  background-color: rgb(164, 0, 247);
+  background-color: rgb(255, 207, 134);
 }
 #header_box {
 
-	background-color: #87FA9C;
+	background-color: #4144ff;
   border:  1px solid black;
   display: flex;
   flex-direction: row;
@@ -23,7 +23,7 @@ margin:0;
   padding: 10px;
 }
 #name_site{
-   background-color:#ddd; padding:10px; text-align: center;
+   background-color:rgb(255, 255, 255); padding:10px; text-align: center;
    flex: 5;
    order:2;
    margin: 10px;
@@ -37,7 +37,7 @@ margin:0;
   max-width: 100px;
 }
 #menu{
-  background-color:#cca;
+  background-color:#ccc;
   flex: 100%;
   order:1;
   margin: 10px;
@@ -104,10 +104,10 @@ th, td {
 }
 footer{
   width:  100%;
-	margin-top:  20px;
+	margin-top:  0px;
 	padding:  10px 0 10px 0;
 	text-align: center;
-	background-color: #87FA9C;
+	background-color: #3e41f8;
   border:  1px solid black;
 }
 #footer_text{
