@@ -65,7 +65,7 @@ margin:0;
 #table_container{
   background-color:#ccc;
   flex:100%;
-  order:4;
+  order:3;
   margin: 0px;
   padding: 10px;
   text-align: center;
@@ -85,7 +85,7 @@ th, td {
 #form{
   background-color:#ccc;
   flex: 100%;
-  order:3;
+  order:4;
   margin: 0px;
   padding: 10px;
   text-align: center;
@@ -108,9 +108,9 @@ footer{
     flex-wrap:  wrap;
   }
   #form{
-    order: 4;
+    order: 3;
   }
   #table_conteiner{
-    order: 3;
+    order: 4;
   }
 }
