@@ -49,6 +49,8 @@ nav{
   border: 3px solid grey;
   width: 100%;
 }
+
+
 #table_conteiner{
   text-align: left;
   border-collapse: collapse;
@@ -68,7 +70,7 @@ th, td {
 #form{
   background-color:#ccc;
   flex: 100%;
-  order:3;
+  order:4;
   margin: 0px;
   padding: 10px;
   text-align: center;
@@ -104,3 +106,6 @@ footer{
 	  width: 100%;
 	}
 }
+
+
+
