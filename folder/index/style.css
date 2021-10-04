@@ -4,15 +4,7 @@
 body{
 margin:0;
 }
-#prek{
-  display: flex;
-  flex-direction: column;
-  flex-wrap:  wrap;
-  width: 100%;
-  margin: 0px 0;
-  border: 3px solid black;
-  background-color: rgb(255, 207, 134);
-}
+
 #header_box {
 
 	background-color: #4144ff;
@@ -37,46 +29,37 @@ margin:0;
   max-width: 100px;
 }
 #menu{
-  background-color:#ccc;
-  flex: 100%;
-  order:1;
-  margin: 0px;
   padding: 10px;
+  background-color:rgb(253, 157, 141);
   text-align: left;
   border: 3px solid grey;
+  height: 100%;
 }
-
-
 #menu a:hover {
   border-radius: 20px 5px;
   background-color: #0066FF;
 }
-
-#prek nav{
-  flex:100%;
-  order:2;
-  margin: 0px;
+nav{
   padding: 10px;
-  text-align: left;
-  background-color:#ccc;
+  column-width: 49%;
+	column-count: 2;
+	column-gap: 2%;
+	background: #ffe1e1;
+  background-color:rgb(253, 157, 141);
   border: 3px solid grey;
+  width: 100%;
 }
-
-#table_container{
-  background-color:#ccc;
-  flex:100%;
-  order:4;
-  margin: 0px;
-  padding: 10px;
-  text-align: center;
+#table_conteiner{
+  text-align: left;
   border-collapse: collapse;
   border: 3px solid grey;
+  height: 50%;
 }
 table{
   width: 100%;
+  height: 100%;
   text-align: center;
   border-collapse: collapse;
-  border: 3px solid grey;
 }
 
 th, td {
@@ -99,18 +82,25 @@ footer{
 	background-color: #3e41f8;
   border:  1px solid black;
 }
+.even{
+  background-color:rgb(255, 255, 255);
+}
+.odd{
+	  background-color: #001cb8;
+}
+.third{
+  background-color: #ff0202;
+}
 #footer_text{
    background-color:#ddd; padding:10px; text-align: center;
 }
 @media screen and (min-width: 960px) {
-  #prek{
-    flex-direction: row;
-    flex-wrap:  wrap;
-  }
-  #form{
-    order: 3;
-  }
-  #table_conteiner{
-    order: 4;
-  }
+  nav{
+	  padding: 10px;
+		column-count: 1;
+		background: #fff2e1;
+	  background-color:rgb(253, 157, 141);
+	  border: 3px solid grey;
+	  width: 100%;
+	}
 }
