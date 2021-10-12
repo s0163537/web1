@@ -5,6 +5,8 @@ body{
 margin:0;
 }
 
+
+
 #header_box {
 
 	background-color: #4144ff;
@@ -32,12 +34,40 @@ margin:0;
   padding: 10px;
   background-color:rgb(253, 157, 141);
   text-align: left;
-  border: 3px solid grey;
   height: 100%;
 }
-#menu a:hover {
+#menuTable{
+  background-color:#ccc;
+  flex: 100%;
+  order:1;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid grey;
+}
+#menuTable a:hover {
   border-radius: 20px 5px;
   background-color: #0066FF;
+}
+.menuTable {
+	width: 100%;
+	display: table;
+}
+.menuTable ul {
+	display: table-row;
+}
+.menuTable li {
+	display: table-cell;
+	background: rgba(0, 94, 181, 0.5)
+}
+.menuTable ul li:hover, .menuTable a:hover {
+	background: rgb(48, 25, 255);
+}
+.menuTable li a {
+	display: block;
+	padding: 8px 15px;
+	color: #fff;
+	text-align: center;
 }
 nav{
   padding: 10px;
@@ -55,7 +85,7 @@ nav{
   text-align: left;
   border-collapse: collapse;
   border: 3px solid grey;
-  height: 50%;
+  height: 100%;
 }
 table{
   width: 100%;
@@ -96,7 +126,48 @@ footer{
 #footer_text{
    background-color:#ddd; padding:10px; text-align: center;
 }
-@media screen and (min-width: 960px) {
+#button1{
+	width: 25%;
+	float:right;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+#button2{
+	width: 25%;
+	float:left;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+#calc{
+	margin:10px 0;
+}
+#result{
+	width:100%;
+	margin: 0px 0;
+  margin-top: 300px;
+	height: 30px;
+	border:  1px solid black;
+	background-color: white;
+	text-align: center;
+	padding-right: 10px;
+}
+#field1{
+	width: 28%;
+  float: left;
+	text-align: center;
+	padding-right: 10px;
+  margin-top: 100px;
+  margin-right:200px;
+}
+#field2{
+	width: 28%;
+	float: right;
+	text-align: center;
+  margin-top: 100px;
+  margin-bottom:40px;
+	padding-right: 10px;
+}
+@media screen and (max-width: 960px) {
   nav{
 	  padding: 10px;
 		column-count: 1;
@@ -104,6 +175,29 @@ footer{
 	  background-color:rgb(253, 157, 141);
 	  border: 3px solid grey;
 	  width: 100%;
+	}
+  .menuTable {
+		display: flex;
+		flex-direction: row;
+		flex-wrap:  wrap;
+		margin: 0 auto;
+	}
+	.menuTable ul {
+	width:100%;
+	padding: 0;
+	min-height: 100%;
+  }
+	.menuTable li {
+		flex: 100%;
+		display: block;
+	}
+	.menuTable ul li:hover, .menuTable a:hover {
+		background: #666;
+	}
+	.menuTable li a {
+		color: #fff;
+		text-align: center;
+		width: 100%;
 	}
 }
 
