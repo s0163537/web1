@@ -50,16 +50,52 @@
           <div class="col-xs-12 col-md-6 order-3 px-sm-3">
             <div class="h-100 py-3">
               <div id = "menu">
+                <div id = "web_calc">
+                  <div style="float: right;">
+                    <h5>Введите количество</h5>
+                  </div>
+                  <h5>Выберите тип товара</h5>
                 
+                  <input name="field0" type="text" id = "field0">
+                  <div>
+                    <select name="myselect">
+                      <option value="1">товар 1</option>
+                      <option value="2">товар 2</option>
+                      <option value="3">товар 3</option>
+                    </select>
+                  </div><br />
+                  <div class="myradios" id="myradios">
+                    <div>
+                      <label><input type="radio" name="myradio" value="r1">яблоки</label>
+                    </div>
+                    <div>
+                      <label><input type="radio" name="myradio" value="r2">груши</label>
+                    </div>
+                    <div>
+                      <label><input type="radio" name="myradio" value="r3">бананы</label>
+                    </div>
+                  </div>
+                  <label id = "check-1">
+                    <input type="checkbox" name="check-1" value = "1"/>
+                    Добавить услугу
+                  </label>
+                  <div>
+                    <h6 style="float:left; color: rgb(0, 0, 0);">Стоимость товара</h4>
+                  </div>
+                  <div id="result1"></div>
+                  
+                  </div>
+                  <br />
+                  <hr style="border: 1px solid rgb(0, 0, 0); margin: 0 -10px;">
+                  
                       <form  id = "calc" >
-                        
                         <button id="button2" onclick="return onClick2()"><h3>C</h3></button>
                         <button id="button1" onclick="return onClick1()"><h3>=</h3></button>
                        
                       </form>
                       <div><input name="field1" type="text" id = "field1">
                         <input name="field2" type="text" id = "field2"></div>
-                      <div id="result"></div>
+                      <div id="result2"></div>
               </div>
   
             </div>
