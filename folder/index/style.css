@@ -70,6 +70,7 @@ margin:0;
 	text-align: center;
 }
 nav{
+ 
   padding: 10px;
   column-width: 49%;
 	column-count: 2;
@@ -78,6 +79,10 @@ nav{
   background-color:rgb(253, 157, 141);
   border: 3px solid grey;
   width: 100%;
+}
+nav li{
+	list-style-type: none;
+	margin: 5px 0;
 }
 
 
