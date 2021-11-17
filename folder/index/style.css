@@ -308,6 +308,7 @@ background: url('images/arrow_right.png') 0 0 / 100% no-repeat;
     margin-top: 15px;
 		margin-left: auto;
 		margin-right: auto;
+    text-align: center;
 		display: block;
 }
 .popup-submit{
@@ -323,7 +324,7 @@ background: url('images/arrow_right.png') 0 0 / 100% no-repeat;
     border-radius: 20px;
     box-shadow: 0 5px 0 rgb(39, 61, 42);
     transition: background-color 0.5s ease 0s;
-    background-color: rgb(86, 202, 92);
+    background-color: rgb(26, 10, 252);
     margin-top: 10px;
 }
 .popup-overlay{
@@ -344,7 +345,7 @@ background: url('images/arrow_right.png') 0 0 / 100% no-repeat;
 	margin-top: 130px;
 	left:50%;
 	box-shadow: 0 0 30px rgba(23, 41, 59, 0.5);
-	background-color: #87FA9C;
+	background-color: #3e97fd;
     border-radius: 5px;
 	}
 	.popWindow h2{
@@ -371,7 +372,7 @@ background: url('images/arrow_right.png') 0 0 / 100% no-repeat;
     align-items: center;
     margin-top: 0px;
 	box-shadow: 0 0 30px rgba(18, 70, 25, 0.986);
-	background-color: rgb(140, 240, 47);
+	background-color: rgb(47, 163, 240);
 	position:absolute;
 	}
 	.thank-you-message{
